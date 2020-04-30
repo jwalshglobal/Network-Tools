@@ -1,0 +1,27 @@
+
+Notes for setting up Internal Speed Test Server:
+
+https://github.com/librespeed/speedtest
+
+Install on Ubuntu: Validated on VERSION="18.04.3 LTS (Bionic Beaver)"
+
+
+sudo -i
+
+apt-get update
+apt-get install apache2
+apt-get install php
+cd opt
+ls
+git clone https://github.com/adolfintel/speedtest.git
+cd speedtest/
+exit
+
+cd /opt/speedtest/
+sudo cp -R backend example-singleServer-pretty.html *.js /var/www/html/
+cd /var/www/html/
+ls -la
+sudo mv example-singleServer-pretty.html index.html
+sudo chown -R www-data *
+
+http://ip-address-of-server
