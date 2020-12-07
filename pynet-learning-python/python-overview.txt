@@ -1,0 +1,33 @@
+Python 3 vs 2
+ - Moving forward go with Python 3
+
+Interpreter Shell - More information available vs running the file
+
+jwalsh$ python3
+
+>>> my_ip_address = "192.168.1.1"
+>>> type(my_ipaddress)
+--------------
+
+Variables & Conventions:
+    lowercase and underscore
+    cannot start with numbers
+    do not start with leading or trailing underscores
+
+test1.py
+
+  #!/usr/bin/env python
+  my_str = 'whatever'
+  print(my_str)
+
+chmod 755 test1.py
+
+---------------
+
+
+ipython
+  colored variables
+  history
+  command completion
+
+python -m pip install ipython
