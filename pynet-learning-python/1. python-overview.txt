@@ -45,9 +45,24 @@ comments
  Multi-line Comments
  '''
 
- ----------------
+----------------
  Standard Input
    ip_addr = input("Enter an IP address: ")
    print(ip_addr)
 
  Standard Output
+  See input-python3-vs-python2.py
+-----------------
+
+DIR
+ list reference methods
+
+>>> my_str = 'hello'
+>>> dir(my_str)
+>>> help(my_str.capitalize)
+
+----------------
+Variables in Memory
+  ip_addr = '8.8.8.8'
+  id(ip_addr)
+  140467267155424
