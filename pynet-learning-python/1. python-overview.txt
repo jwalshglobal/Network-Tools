@@ -95,6 +95,16 @@ Concatenation
     my_str = 'hello'
     new_str = my_str + 'something'
 
+Raw Strings
+  - treats strings as literal strings
+  - helps prevent issues with backslashes
+
+  my_path = r"c:\windows\newdir\test"
+
+Troubleshoot Strings:
+  - show what's happening under the hood
+
+   print(repr(my_str)
 -----------------
 Numbers
 
