@@ -5,8 +5,12 @@ Tell python to act like python3
   from __future__ import print_function
 
 Using python3 to run python2 code:
+  Try / Except Blocks
 
-
+ASCI Text in python 2 for strings
+Unicode string in python 3
+  Import unicode_literals => automatically set Pyhon2 strings to unicode
+  Usually will encode in UTF-8
 ------------------------------
 
 Interpreter Shell - More information available vs running the file
@@ -66,3 +70,35 @@ Variables in Memory
   ip_addr = '8.8.8.8'
   id(ip_addr)
   140467267155424
+
+-----------------
+Strings
+
+Comparisons & Booleans
+    >>> ip_addr = '192.168.1.1'
+    >>> ip_addr == '192.168.1.1'
+    True
+
+    >>> '192.168' in ip_addr
+    True
+
+Slices
+
+    ip_addr[0]
+    '1'
+    ip_addr[1]
+    '9'
+    ip_addr[-4]
+    '.'
+
+Concatenation
+    my_str = 'hello'
+    new_str = my_str + 'something'
+
+-----------------
+Numbers
+
+bin(255)
+'0b11111111'
+hex(255)
+'0xff'
