@@ -1,0 +1,43 @@
+Strings
+
+Comparisons & Booleans
+    >>> ip_addr = '192.168.1.1'
+    >>> ip_addr == '192.168.1.1'
+    True
+
+    >>> '192.168' in ip_addr
+    True
+
+Slices
+
+    ip_addr[0]
+    '1'
+    ip_addr[1]
+    '9'
+    ip_addr[-4]
+    '.'
+
+Concatenation
+    my_str = 'hello'
+    new_str = my_str + 'something'
+
+Raw Strings
+  - treats strings as literal strings
+  - helps prevent issues with backslashes
+
+  my_path = r"c:\windows\newdir\test"
+
+Troubleshoot Strings:
+  - show what's happening under the hood
+
+   print(repr(my_str)
+
+Formatting
+  ip_addr1 = "172.16.1.1"
+  ip_addr2 = "10.1.1.1"
+  ip_addr3 = "192.168.1.1"
+  print("-"  * 80)
+  print("{}{}{}".format(ip_addr1, ip_addr2, ip_addr3)
+  print("{:20}{:20}{:20}".format(ip_addr1, ip_addr2, ip_addr3)
+
+

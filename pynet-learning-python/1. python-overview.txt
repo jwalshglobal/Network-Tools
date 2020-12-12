@@ -1,0 +1,81 @@
+Python 3 vs 2
+   Moving forward go with Python 3!
+
+Tell python to act like python3
+  from __future__ import print_function
+
+Using python3 to run python2 code:
+  Try / Except Blocks
+
+ASCI Text in python 2 for strings
+Unicode string in python 3
+  Import unicode_literals => automatically set Pyhon2 strings to unicode
+  Usually will encode in UTF-8
+------------------------------
+
+Interpreter Shell - More information available vs running the file
+  jwalsh$ python3
+  >>> my_ip_address = "192.168.1.1"
+  >>> type(my_ipaddress)
+--------------
+
+Variables & Conventions:
+    lowercase and underscore
+    cannot start with numbers
+    do not start with leading or trailing underscores
+
+Create file: test1.py
+  #!/usr/bin/env python
+  my_str = 'whatever'
+  print(my_str)
+
+Change file to executable:
+  chmod 755 test1.py
+  $ ./test1.py
+---------------
+
+ipython
+  colored variables
+  history
+  command completion
+
+Install ipython:
+  python -m pip install ipython
+----------------
+
+comments
+ # Comments
+ '''
+ Multi-line Comments
+ '''
+
+----------------
+ Standard Input
+   ip_addr = input("Enter an IP address: ")
+   print(ip_addr)
+
+ Standard Output
+  See input-python3-vs-python2.py
+-----------------
+
+DIR
+ list reference methods
+
+>>> my_str = 'hello'
+>>> dir(my_str)
+>>> help(my_str.capitalize)
+
+----------------
+Variables in Memory
+  ip_addr = '8.8.8.8'
+  id(ip_addr)
+  140467267155424
+
+-----------------
+
+Numbers
+
+bin(255)
+'0b11111111'
+hex(255)
+'0xff'
