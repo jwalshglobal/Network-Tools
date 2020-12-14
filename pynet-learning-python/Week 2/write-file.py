@@ -1,0 +1,10 @@
+f=open("write-new_file.txt", mode="w")
+f.write("something\n")
+f.write("something\n")
+f.write("something\n")
+f.write("something\n")
+f.close()
+
+f=open("write-new_file.txt", mode="a")
+f.write("append\n")
+f.close()
