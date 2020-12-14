@@ -1,0 +1,42 @@
+-----------------
+Numbers
+
+bin(255)
+'0b11111111'
+hex(255)
+'0xff'
+
+------------------------
+Integers
+
+my_number = 2
+type(my_number)
+<class 'int'>
+
+Division
+    - Python2 does not give remainder
+  7/3 = 2
+    - Python3 gives a float
+  7/3 = 2.3333333333333335
+
+  Can future import divion or use " // "
+  7//3 = 2
+
+-----------
+Floats and Rounding
+
+ num1 = 2.2
+ int(num1)
+ 2
+
+  num2 = 2.20348
+  round(num2, 3)
+  2.203
+
+    - Decimals are stored in binary so can end with strangeness
+
+------------
+Increments
+
+  i = i + 1
+  i += 1

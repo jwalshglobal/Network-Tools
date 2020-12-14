@@ -71,11 +71,3 @@ Variables in Memory
   id(ip_addr)
   140467267155424
 
------------------
-
-Numbers
-
-bin(255)
-'0b11111111'
-hex(255)
-'0xff'
