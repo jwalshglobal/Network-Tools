@@ -1,0 +1,16 @@
+Lists are sequential data of mixed data types
+
+Lists are mutable
+
+my_list = ['hello', 'something']
+
+#make a reference in memory
+new_list = my_list
+new_list.append('bye')
+
+
+my_list == my_list
+   - Same reference in memory (same id)
+
+id(my_list)
+id(new_list)
