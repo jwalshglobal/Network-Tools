@@ -1,0 +1,17 @@
+LINTERS
+
+ - Use to make code more readable
+ - Finds obvious errors
+
+pip list | grep pylint
+pip list | grep pycodestyle
+
+pip install pylint
+pip install pycodestyle
+
+---------------------
+Pylama with setup config
+$ pylama -o setup.cfg test1.py
+
+Use to ignore files or error code
+Add to CI Pipeline

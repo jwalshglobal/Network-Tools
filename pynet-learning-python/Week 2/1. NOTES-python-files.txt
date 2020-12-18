@@ -1,0 +1,9 @@
+Opening and Reading files
+
+f = open("/Users/jwalsh/PycharmProjects/network-tools/pynet-learning-python/show_version.txt")
+output = f.read()
+print(output)
+
+ - f.read()         --->   Returns a string
+ - f.readline()     --->   Returns a string
+ - f.readlines()    --->   Returns a list
