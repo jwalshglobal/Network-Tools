@@ -71,3 +71,5 @@ Variables in Memory
   id(ip_addr)
   140467267155424
 
+---------------
+100 characters for line length in code is common
