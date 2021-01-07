@@ -11,3 +11,11 @@ f = open("show_version.txt")
 output = f.read()
 print(output)
 print(type(output))
+f.close()
+
+print("X"*80)
+
+with open("show_version.txt") as f:
+    output = f.read()
+print(type(output))
+print(output)
