@@ -7,4 +7,7 @@ Open the file a second time using a Python context manager (with statement). Rea
 the .readlines() method. Print out the file contents to the screen. Also print out the type of the variable
 (you should have a list at this point)."""
 
-f =
+f = open("show_version.txt")
+output = f.read()
+print(output)
+print(type(output))
