@@ -1,0 +1,20 @@
+Can chain booleans together
+(OR, AND, NOT)
+
+# Cast string to a boolean
+
+a = 'whatever'
+bool(a)
+True
+
+All strings are treated as TRUE except for NULL (false because empty)
+
+Intergers are treated as TRUE except for zero
+
+Lists with any values are treated as TRUE
+
+#Ternary operator
+my_val = 10
+a = 'whatever' if my_val >2 else 'something'
+
+#NONE - default return of python function
