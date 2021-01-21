@@ -1,0 +1,16 @@
+
+if expression:
+    block
+    block
+elif expression:
+    block
+    block
+elif expression:
+    block
+else
+
+var1 = 10
+if var1 == 10:
+
+
+Be cautious of two "if" conditions. Make sure to use the elif to avoid errors

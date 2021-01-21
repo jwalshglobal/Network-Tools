@@ -25,3 +25,6 @@ my_list.pop(0)
 
 #Remove beginning of list
 del my_list[0]
+
+#Sort List
+my_list.sort()
