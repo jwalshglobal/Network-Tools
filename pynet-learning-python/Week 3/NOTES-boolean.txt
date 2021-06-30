@@ -7,7 +7,7 @@ a = 'whatever'
 bool(a)
 True
 
-All strings are treated as TRUE except for NULL (false because empty)
+All strings are treated as TRUE except for NULL (false because empty string)
 
 Intergers are treated as TRUE except for zero
 
