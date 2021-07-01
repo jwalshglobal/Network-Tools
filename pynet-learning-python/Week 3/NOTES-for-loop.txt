@@ -1,0 +1,29 @@
+For Loop
+
+  some_list = ['192.168.1.1', '10.1.1.1', '10.10.20.30', '172.16.31.254']
+  ip_address_list = some_list
+
+ - Do not loop over modified list (i.e. do not change ip_address_list below)
+
+ for i, ip_addr in enumerate(ip_address_list):
+    print(i)
+    print(ip_addr)
+    print('-' * 30)
+ ----------------------------
+ Break statement = exit out of closest for loop
+
+
+While Loop
+
+If true, looping will continue and exit
+
+ while express:
+   code_block
+
+   exit from loop two ways = 1. expression is no longer true or 2. break statement
+
+ -----------------------
+ else can be thought of as 'no break'
+ else statement -- create a flag to track something
+
+

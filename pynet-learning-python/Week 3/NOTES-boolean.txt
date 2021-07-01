@@ -7,11 +7,12 @@ a = 'whatever'
 bool(a)
 True
 
-All strings are treated as TRUE except for NULL (false because empty)
+All strings are treated as TRUE except for NULL (false because empty string)
 
 Intergers are treated as TRUE except for zero
 
 Lists with any values are treated as TRUE
+bool([1,2])
 
 #Ternary operator
 my_val = 10
