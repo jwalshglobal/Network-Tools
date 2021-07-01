@@ -21,3 +21,9 @@ If true, looping will continue and exit
    code_block
 
    exit from loop two ways = 1. expression is no longer true or 2. break statement
+
+ -----------------------
+ else can be thought of as 'no break'
+ else statement -- create a flag to track something
+
+
