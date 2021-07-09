@@ -1,0 +1,16 @@
+Dictionaries
+ key, value mapping
+ Mutable data structure
+ Not based on order vs an ordered dictionary
+ (Hash or hash maps in other languages)
+ Be careful when making copies of dictionaries
+
+net_device = {}
+net_device
+
+Use a variable
+
+Copy dictionaries:
+  net_device2 = net_device.copy()
+  net_device2 is net_device
+  False

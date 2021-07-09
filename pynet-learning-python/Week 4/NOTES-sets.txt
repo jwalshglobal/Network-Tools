@@ -1,0 +1,7 @@
+Unique elements (no duplicates!)
+Uses curly braces just like dictionaries
+
+my_ip = ['192.168.1.1', '10.220.17.9', '31.1.1.1', '192.168.1.1']
+
+set(my_ip)
+print(set)

@@ -1,0 +1,6 @@
+Exception code:
+ accept there may be exceptions and gracefully handle them
+
+ try
+ except
+ finally
