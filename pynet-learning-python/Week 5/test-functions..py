@@ -45,3 +45,14 @@ my_dict = {
 # Add a DOUBLE star
 print_ip(**my_dict)
 
+print()
+# Variables - global namespaces - local variables are checked first, then global variables
+ip_addr = '172.16.1.1'
+
+def print_ip(ip_addr, username='def-admin', password='def-pass'):
+    print("My IP Address is {}".format(ip_addr))
+    print(username)
+    print(password)
+    return
+
+print_ip()
