@@ -40,3 +40,4 @@ print()
 # Mix of positional and named
 funct_ssh('192.168.99.1', username='somename', password='mypass')
 
+my_list = ['10.1.1.1']
