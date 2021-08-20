@@ -20,7 +20,8 @@ my_device = {
     'password': password,
     'secret': password,
     'device_type': 'hp_procurve'
-    #'device_type': 'foo'
+    # Use invalid device type to see all supported devices
+    # 'device_type': 'foo'
     }
 
 net_conn = Netmiko(**my_device)
@@ -29,6 +30,9 @@ print(output)
 
 output = net_conn.send_command("show interfaces")
 print(output)
+
+#Gracefully close ssh connection
+net_conn.disconnect()
 
 # fix issue with router prompt that sometimes does not work
 # output = net_conn.send_command("show interfaces", expect_string=r'#')
@@ -41,3 +45,4 @@ print(output)
 # net_conn.enable()
 # print(net_conn.find_prompt())
 
+# Multi-line commands (i.e. confirm you want to delete a file)
