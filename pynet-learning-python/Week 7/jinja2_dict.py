@@ -4,16 +4,31 @@ from __future__ import print_function, unicode_literals
 import jinja2
 
 bgp_vars = {
-    "peer1_ip": "10.255.255.2",
-    "peer1_as": "20",
-    "advertised_route1": "10.10.200.0/24",
-    "advertised_route2": "10.10.201.0/24",
-    "advertised_route3": "10.10.202.0/24",
+    "routers": {
+        "sf_rtr1": "10.10.10.1",
+        "sf_rtr2": "10.10.10.2",
+        "sf_rtr3": "10.10.10.3",
+        "denver_rtr1": "10.10.10",
+        },
+
+    "ip_list": [
+        '192.168.1.1',
+        '10.1.1.1'
+    ]
 }
 
-template_file = 'nxos_bgp.txt'
-with open(template_file) as f:
-    bgp_template = f.read()
+z_template = '''
+{%- for router_name, ip_addr in routers.items() %}
+{{ router_name }} >>> {{ ip_addr }}
+  {%- for ip_addr in ip_list %}
+  {{ ip_addr }}
+  {%- endfor %}
+{%- endfor %}
 
-template = jinja2.Template(bgp_template)
+#Reference Dict Key
+
+{{ routers['sf_rtr1'] }}
+'''
+
+template = jinja2.Template(z_template)
 print(template.render(bgp_vars))
