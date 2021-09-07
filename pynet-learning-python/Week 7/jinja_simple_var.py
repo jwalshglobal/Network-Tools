@@ -22,7 +22,6 @@ router bgp 10
         update-source loopback1
         ebgp-multihop 2
         address-family ipv4 unicast
-
 '''
 
 t = jinja2.Template(bgp_template)

@@ -7,4 +7,4 @@ router bgp {{ local_as }}
   neighbor {{ peer1_ip }} remote-as {{ peer1_as }}
     update-source loopback1
     ebgp-multihop 2
-    address-family ipv5 unicast
+    address-family ipv6 unicast
