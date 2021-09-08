@@ -1,0 +1,29 @@
+Recommended Speed Test Sites:
+-----------------------------
+
+EXTERNAL:
+
+Netflix:
+https://fast.com/
+
+Google Fiber Speedtest:
+http://speedtest.googlefiber.net/
+
+Speedtest.net
+https://www.speedtest.net/
+
+-----------------------------
+
+INTERNAL:
+
+Internal Speedtest Server (See NOTES)
+https://github.com/librespeed/speedtest
+
+Self-hosted HTML5 Speedtest Setup
+https://www.youtube.com/watch?v=MVCi1jvLL-w
+
+Speedtest CLI:
+https://www.speedtest.net/apps/cli
+
+Sending speedtest results to syslog:
+https://www.linkedin.com/pulse/sending-speedtest-results-syslog-ronald-bartels/
